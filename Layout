@@ -1,0 +1,315 @@
+<html>
+    <head>
+        <style>
+            body {
+  				overflow: hidden; 
+			}
+            .container1{
+            	position: absolute;
+            	width: 100%;
+            	height:100%;
+            	float: left;
+       
+                
+        	}
+            .container2 img{
+            	width: 100%;
+            	height: 100%;
+        	}
+        	.container2{
+            	position: absolute;
+           	 	width: 820px;
+            	height:50%;
+            	float: right;
+            	left: 55%;
+        	}
+            .container3{
+            	position: absolute;
+                top:55%;
+           	 	width: 50%;
+            	height:50%;
+            	float: right;
+            	left: 56%;
+        	}
+            .one{
+            	position: absolute;
+           	 	width: 20%;
+            	height:20%;
+            	float: left;   
+            }
+            .two{
+            	position: absolute;
+           	 	width: 10%;
+            	height:20%;
+            	float: left;
+                left:20%;
+                overflow:auto;
+            }
+            .three{
+            	position: absolute;
+           	 	width: 20%;
+            	height:20%;
+            	float: left;
+                left:30%;
+            }
+            .one_b{
+            	position: absolute;
+           	 	width: 20%;
+            	height:10%;
+            	float: left; 
+                top:20%;
+            }
+            .two_b{
+            	position: absolute;
+           	 	width: 10%;
+            	height:10%;
+            	float: left;
+                left:20%;
+                overflow:auto;
+                top:20%;
+            }
+            .three_b{
+            	position: absolute;
+           	 	width: 20%;
+            	height:10%;
+            	float: left;
+                left:30%;
+                top:20%;
+            }
+            .one_c{
+            	position: absolute;
+           	 	width: 20%;
+            	height:20%;
+            	float: left; 
+                top:30%;
+            }
+            .two_c{
+            	position: absolute;
+           	 	width: 10%;
+            	height:20%;
+            	float: left;
+                left:20%;
+                overflow:auto;
+                top:30%;
+            }
+            .three_c{
+            	position: absolute;
+           	 	width: 20%;
+            	height:20%;
+            	float: left;
+                left:30%;
+                top:30%;
+            }
+            .one_d{
+            	position: absolute;
+           	 	width: 20%;
+            	height:10%;
+            	float: left; 
+                top:50%;
+            }
+            .two_d{
+            	position: absolute;
+           	 	width: 10%;
+            	height:10%;
+            	float: left;
+                left:20%;
+                overflow:auto;
+                top:50%;
+            }
+            .three_d{
+            	position: absolute;
+           	 	width: 20%;
+            	height:10%;
+            	float: left;
+                left:30%;
+                top:50%;
+            }
+            .one_e{
+            	position: absolute;
+           	 	width: 20%;
+            	height:20%;
+            	float: left; 
+                top:60%;
+            }
+            .two_e{
+            	position: absolute;
+           	 	width: 10%;
+            	height:20%;
+            	float: left;
+                left:20%;
+                overflow:auto;
+                top:60%;
+            }
+            .three_e{
+            	position: absolute;
+           	 	width: 20%;
+            	height:20%;
+            	float: left;
+                left:30%;
+                top:60%;
+            }
+            #button1{
+            	background-color: transparent; 
+            	color: black; 
+            	width: 100%;
+            	height:100%;
+                font-size: 30px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            #button2{
+            	background-color: transparent; 
+            	color: black; 
+            	width: 100%;
+            	height:100%;
+                font-size: 30px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            #button3{
+            	background-color: transparent; 
+            	color: black; 
+            	width: 100%;
+            	height:100%;
+                font-size: 30px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            #button4{
+            	background-color: transparent; 
+            	color: black; 
+            	width: 100%;
+            	height:100%;
+                font-size: 30px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            #button5{
+            	background-color: transparent; 
+            	color: black; 
+            	width: 100%;
+            	height:100%;
+                font-size: 30px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            #button6{
+            	background-color: transparent; 
+            	color: black; 
+            	width: 100%;
+            	height:100%;
+                font-size: 30px;
+                font-family: "Times New Roman", Times, serif;
+            }
+            #inner_pipe{
+                height: 30%;
+  				width: 100%;
+  				background-color: #555;
+                margin-top:32%;
+            }
+            #inner_pipe_mid{
+                height: 100%;
+  				width: 18%;
+  				background-color: #555;
+                margin-left:41%;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function changeImage(){
+				var img = document.getElementById("CCTV");
+				img.src="https://s3.gifyu.com/images/Hnet-image0987c0dcfbc451a4.gif";
+				return false;
+			}
+            function changeImage1(){
+				var img = document.getElementById("CCTV");
+				img.src="https://s3.gifyu.com/images/Hnet-image-17f6543afc2d06d9b.gif";
+				return false;
+			}
+            function changeImage2(){
+				var img = document.getElementById("CCTV");
+				img.src="https://s3.gifyu.com/images/Hnet-image-3.gif";
+				return false;
+			}
+            function changeImage3(){
+				var img = document.getElementById("CCTV");
+				img.src="https://s3.gifyu.com/images/Hnet-image-268186b27432f8ffc.gif";
+				return false;
+			}
+            function changeImage4(){
+				var img = document.getElementById("CCTV");
+				img.src="https://s3.gifyu.com/images/Hnet-image-4.gif";
+				return false;
+			}
+            function changeImage5(){
+				var img = document.getElementById("CCTV");
+				img.src="https://s3.gifyu.com/images/Hnet-image-5.gif";
+				return false;
+			}
+        </script>
+        <div class="container1">
+            <div class="one">
+            	<button id="button1" class="button1" onclick="changeImage()">
+            		Acid Tank
+            	</button>
+            </div>
+            <div class="two">
+                <div id="inner_pipe">
+                </div>
+            </div>
+            <div class="three">
+            	<button id="button3" class="button1" onclick="changeImage1()">
+            		Alkaline Tank
+            	</button> 
+            </div>
+            <div class="one_b">
+            </div>
+            <div class="two_b">
+            </div>
+            <div class="three_b">
+            	<div id="inner_pipe_mid">   
+                </div>
+            </div>
+            <div class="one_c">
+            	<button id="button4" class="button4" onclick="changeImage2()">
+            		Oven
+            	</button>
+            </div>
+            <div class="two_c">
+                <div id="inner_pipe">
+                    
+                </div>
+            </div>
+            <div class="three_c">
+            	<button id="button5" class="button5" onclick="changeImage3()">
+            		Coating Tank 
+            	</button> 
+            </div>
+            <div class="one_d">
+                <div id="inner_pipe_mid">   
+                </div>
+            </div>
+            <div class="two_d">
+            </div>
+            <div class="three_d">
+            </div>
+            <div class="one_e">
+            	<button id="button6" class="button6" onclick="changeImage4()" >
+            		Pickup Area
+            	</button>
+            </div>
+            <div class="two_e">
+                <div id="inner_pipe">
+                    
+                </div>
+            </div>
+            <div class="three_e">
+            	<button id="button3" class="button1" onclick="changeImage5()">
+            		Testing Area
+            	</button> 
+            </div>
+        </div>
+         <div class="container2">
+            <img id ="CCTV" src="https://www.surforma.com/media/filer_public_thumbnails/filer_public/01/a2/01a2dd6a-bae7-4682-a8ed-dad568aaa6bd/l4179.jpg__800x600_q95_crop_subject_location-1060%2C1499_subsampling-2_upscale.jpg">
+        </div>
+        <div class="container3">
+        </div>
+        
+    </body>
+</html>
